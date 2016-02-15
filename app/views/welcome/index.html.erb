@@ -1,0 +1,61 @@
+
+  <html>
+  <head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="test.js">
+
+    </script>
+    <style>
+      h1
+      {
+        text-align: center;
+        margin-top:5%;
+      }
+      .mycontainer
+      {
+        margin-top:10%;
+      }
+        .mycontainer>form
+        {
+          display:inline;
+          text-align: center;
+        }
+      #chartContainer
+      {
+        margin-top: 5%;;
+      }
+    </style>
+  </head>
+  <body>
+  <h1>Тестовое задание "Шифр Цезаря"</h1>
+  <div class="col-xs-9 col-xs-offset-3 mycontainer">
+
+    <div class="row">
+    <form action="javascript:void(null)" method="post" id="cryptform" onsubmit="send()" class="form-inline" >
+      <div class="formgroup col-xs-2">
+        <label for="text">Исходный текст:</label>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+      </div>
+<div class="formgroup col-xs-2 col-xs-offset-1">
+  <label for="rot" >Смещение</label>
+  <input type="text" name="rot" id="rot">
+  <input type="button" name="encrypt" id="encrypt" value="Зашифровать" onclick="send('encrypt')">
+  <input type="button" name="decrypt" id="decrypt" value="Раcшифровать" onclick="send('decrypt')">
+</div>
+      <div class="formgroup col-xs-2">
+        <label for="result">Результат шифрования/дешифрования:</label>
+        <textarea name="result" id="result" cols="30" rows="10" disabled></textarea>
+      </div>
+
+
+
+    </form>
+    <div id="isencr" class="col-xs-8"></div>
+
+  </div>
+  </div>
+  <div id="chartContainer" style="height: 300px; width: 100%;" class="col-xs-8"></div>
+  </body>
+  </html>

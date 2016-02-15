@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails myblog: development" uuid="5f01db0f-882b-4572-9073-ff416b960603">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Sqlite (Xerial) - mydb.db" uuid="468a2a50-330d-4599-8358-e30aa36066af">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails myblog: test" uuid="84c9f961-022b-40c0-98b6-cdd4ba896734">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails myblog: default" uuid="4bfecb2f-68eb-4ccb-b97a-65c8ebfc52f6">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
